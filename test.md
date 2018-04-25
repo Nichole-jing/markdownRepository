@@ -14,9 +14,33 @@
  ~~这是一段错误的文本。~~
  ### 4. 注脚
  hello[^hello]
- 这是第一个注脚[^footnote2]
+ 
+ footnote[^footnote]
  
  
  [^hello]: hi
- [^footnote2]: 这是另一个 *注脚* 的 **文本**。
  
+ [^footnote]: 这是另一个 *注脚* 的 **文本**。
+ 
+ a[^1]
+ b[^2]
+ 
+ [^1]:qqq
+ [^2]:qqq
+ ### 5.表格
+ <table>
+     <tr>
+         <th rowspan="2">值班人员</th>
+         <th>星期一</th>
+         <th>星期二</th>
+         <th>星期三</th>
+     </tr>
+     <tr>
+         <td>李强</td>
+         <td>张明</td>
+         <td>王平</td>
+     </tr>
+ </table>
+     
+ - [x] **Cmd Markdown 开发**
+ - [ ] **Cmd Markdown 开发**
