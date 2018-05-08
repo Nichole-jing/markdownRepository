@@ -32,7 +32,7 @@
     for (let ch of s) {
       console.log(ch.codePointAt(0).toString(16));
     }
-   * 模板字符串
+   * **模板字符串**（重）
       * 优势：
       
         `链接：https://www.zhihu.com/question/21893022/answer/19647087`
@@ -68,4 +68,24 @@
             return x < 0 ? Math.ceil(x) : Math.floor(x);
          };
  #### 函数的扩展
+   * **箭头函数**（重） 
+   
+    1.一个参数
+    var f = v => v;
+   
+    // 等同于
+    var f = function (v) {
+     return v;
+    };
+    2.如果箭头函数不需要参数或需要多个参数，就使用一个圆括号代表参数部分。
+    
+    var f = () => 5;
+    // 等同于
+    var f = function () { return 5 };
+    
+    var sum = (num1, num2) => num1 + num2;
+    // 等同于
+    var sum = function(num1, num2) {
+      return num1 + num2;
+    };
  
