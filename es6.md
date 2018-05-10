@@ -88,4 +88,16 @@
     var sum = function(num1, num2) {
       return num1 + num2;
     };
- 
+ #### Symbol
+  * Symbol是JavaScript 语言的第七种数据类型，
+  前六种是：undefined、null、布尔值（Boolean）、字符串（String）、数值（Number）、对象（Object）。
+  * 消除魔术字符串
+  
+    魔术字符串指的是，在代码之中多次出现、与代码形成强耦合的某一个具体的字符串或者数值。
+ #### Promise对象（重）
+   * 解决异步编程
+ #### async 函数（重）
+ #### class的基本语法（重）
+ #### class的继承（重）
+ #### Module 的语法（重）
+ #### Module 的加载实现（重）
